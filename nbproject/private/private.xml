@@ -3,18 +3,28 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/dao/AdminDAO.java</file>
             <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/dao/tables.java</file>
             <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/PlaceOrder.java</file>
-            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/User/UserLogin.java</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/CafeManagementSystem.java</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/Dashboard.java</file>
             <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/User/ForgotPassword.java</file>
-            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/Admin/AdminHomepage.java</file>
             <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/Admin/ViewBillPlaceOrderDetailsAdmin.java</file>
-            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/User/ViewBillPlaceOrderDetailsUser.java</file>
-            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/User/ChangePassword.java</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/ViewEditDeleteProduct.java</file>
             <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/Admin/AdminLogin.java</file>
             <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/dao/UserDAO.java</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/.git/config</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/ManageCategory.java</file>
             <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/User/UserHomepage.java</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/dao/CategoryDao.java</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/User/UserLogin.java</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/Admin/UserExpenditure.java</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/Admin/AdminHomepage.java</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/AddNewProduct.java</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/User/ChangePassword.java</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/User/ViewBillPlaceOrderDetailsUser.java</file>
             <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/cafe/management/system/User/UserSignup.java</file>
+            <file>file:/C:/Users/dharm/OneDrive/Documents/NetBeansProjects/Cafe%20Management%20System/src/dao/BillDao.java</file>
         </group>
     </open-files>
 </project-private>

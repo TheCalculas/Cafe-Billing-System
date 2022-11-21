@@ -59,7 +59,7 @@ public class ChangePassword extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Change Password");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 140, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 140, -1, -1));
 
         btnChange.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         btnChange.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/save.png"))); // NOI18N

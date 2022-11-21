@@ -31,6 +31,7 @@ public class AdminHomepage extends javax.swing.JFrame {
     // Default constructor
     public AdminHomepage() {
         initComponents();
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
     }
     
     
@@ -59,119 +60,94 @@ public class AdminHomepage extends javax.swing.JFrame {
         sProduct = new javax.swing.JButton();
         sViewEditDeleteProduct = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        btnLogout.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnLogout.setText("Logout");
         btnLogout.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLogoutActionPerformed(evt);
             }
         });
+        getContentPane().add(btnLogout, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 34, -1, -1));
 
+        btnPlaceOrder.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnPlaceOrder.setText("Place Order");
         btnPlaceOrder.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPlaceOrderActionPerformed(evt);
             }
         });
+        getContentPane().add(btnPlaceOrder, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 220, 270, -1));
 
-        btnViewBills.setText("View BIlls and Order Details");
+        btnViewBills.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        btnViewBills.setText("View Bills and Order Details");
         btnViewBills.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnViewBillsActionPerformed(evt);
             }
         });
+        getContentPane().add(btnViewBills, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 290, -1, -1));
 
+        btnChangePassword.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnChangePassword.setText("Change Password");
         btnChangePassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnChangePasswordActionPerformed(evt);
             }
         });
+        getContentPane().add(btnChangePassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 370, 270, -1));
 
+        btnExit.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnExit.setText("Exit");
         btnExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnExitActionPerformed(evt);
             }
         });
+        getContentPane().add(btnExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(1190, 30, -1, -1));
 
+        sCategory.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         sCategory.setText("Manage Category");
         sCategory.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sCategoryActionPerformed(evt);
             }
         });
+        getContentPane().add(sCategory, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 630, 190, -1));
 
+        sProduct.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         sProduct.setText("New Product");
         sProduct.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sProductActionPerformed(evt);
             }
         });
+        getContentPane().add(sProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 630, 150, -1));
 
+        sViewEditDeleteProduct.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         sViewEditDeleteProduct.setText("View, Edit, Delete Product");
         sViewEditDeleteProduct.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sViewEditDeleteProductActionPerformed(evt);
             }
         });
+        getContentPane().add(sViewEditDeleteProduct, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 630, -1, -1));
 
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton1.setText("Show User by Expenditure ");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 630, 260, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(112, 112, 112)
-                        .addComponent(sCategory)
-                        .addGap(29, 29, 29)
-                        .addComponent(sProduct))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(60, 60, 60)
-                        .addComponent(btnLogout)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnPlaceOrder)))
-                .addGap(58, 58, 58)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnViewBills)
-                        .addGap(65, 65, 65)
-                        .addComponent(btnChangePassword)
-                        .addGap(52, 52, 52)
-                        .addComponent(btnExit)
-                        .addGap(35, 35, 35)
-                        .addComponent(jButton1))
-                    .addComponent(sViewEditDeleteProduct))
-                .addContainerGap(165, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(34, 34, 34)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnLogout)
-                    .addComponent(btnPlaceOrder)
-                    .addComponent(btnViewBills)
-                    .addComponent(btnChangePassword)
-                    .addComponent(btnExit)
-                    .addComponent(jButton1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 607, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(sCategory)
-                    .addComponent(sProduct)
-                    .addComponent(sViewEditDeleteProduct))
-                .addGap(29, 29, 29))
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\dharm\\Downloads\\michal-parzuchowski-ItaV89TNkks-unsplash (1).jpg")); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-500, 0, 1790, 710));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -277,6 +253,7 @@ public class AdminHomepage extends javax.swing.JFrame {
     private javax.swing.JButton btnPlaceOrder;
     private javax.swing.JButton btnViewBills;
     private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JButton sCategory;
     private javax.swing.JButton sProduct;
     private javax.swing.JButton sViewEditDeleteProduct;

@@ -68,13 +68,17 @@ public class AdminLogin extends javax.swing.JFrame {
         sLogin = new javax.swing.JButton();
         sClear = new javax.swing.JButton();
         sExit = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Admin Login");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 80, -1, -1));
 
-        sName.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        sName.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         sName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sNameActionPerformed(evt);
@@ -85,14 +89,19 @@ public class AdminLogin extends javax.swing.JFrame {
                 sNameKeyReleased(evt);
             }
         });
+        getContentPane().add(sName, new org.netbeans.lib.awtextra.AbsoluteConstraints(595, 290, 301, -1));
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Email");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(401, 293, -1, -1));
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Password");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(401, 349, -1, -1));
 
-        sPassword.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        sPassword.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         sPassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sPasswordActionPerformed(evt);
@@ -103,8 +112,10 @@ public class AdminLogin extends javax.swing.JFrame {
                 sPasswordKeyReleased(evt);
             }
         });
+        getContentPane().add(sPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(595, 346, 301, -1));
 
-        sLogin.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        sLogin.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        sLogin.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/login.png"))); // NOI18N
         sLogin.setText("Login");
         sLogin.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -116,66 +127,30 @@ public class AdminLogin extends javax.swing.JFrame {
                 sLoginActionPerformed(evt);
             }
         });
+        getContentPane().add(sLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 450, -1, -1));
 
-        sClear.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        sClear.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        sClear.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/eraser icon.png"))); // NOI18N
         sClear.setText("Clear");
         sClear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sClearActionPerformed(evt);
             }
         });
+        getContentPane().add(sClear, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 450, -1, -1));
 
-        sExit.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        sExit.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        sExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cancel.png"))); // NOI18N
         sExit.setText("Exit");
         sExit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sExitActionPerformed(evt);
             }
         });
+        getContentPane().add(sExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 450, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(401, 401, 401)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3))
-                .addGap(87, 87, 87)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(sLogin)
-                        .addGap(28, 28, 28)
-                        .addComponent(sClear)
-                        .addGap(30, 30, 30)
-                        .addComponent(sExit))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel1)
-                        .addComponent(sName)
-                        .addComponent(sPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 301, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(513, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(191, 191, 191)
-                .addComponent(jLabel1)
-                .addGap(51, 51, 51)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(sName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(sPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(63, 63, 63)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(sLogin)
-                    .addComponent(sClear)
-                    .addComponent(sExit))
-                .addContainerGap(125, Short.MAX_VALUE))
-        );
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/cafe_login.jpg"))); // NOI18N
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -274,6 +249,7 @@ public class AdminLogin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JButton sClear;
     private javax.swing.JButton sExit;
     private javax.swing.JButton sLogin;

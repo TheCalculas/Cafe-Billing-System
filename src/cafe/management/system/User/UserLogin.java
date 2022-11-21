@@ -20,7 +20,8 @@ public class UserLogin extends javax.swing.JFrame {
      */
     
     public String emailPattern = "^[a-zA-Z0-9]+[@]+[a-zA-Z0-9]+[.]+[a-zA-Z0-9]+$";
-    public String mobileNumberPattern = "^[0-9]*$";
+    public String passwordPattern = "^[a-zA-Z0-9@#$!%^&*]+$";
+//    pubilc String passwordPattern = "^"
     
     public UserLogin() {
         initComponents();
@@ -38,7 +39,7 @@ public class UserLogin extends javax.swing.JFrame {
     {
         String email = sName.getText();
          String password = sPassword.getText();
-        if(email.matches(emailPattern)&&!password.equals(""))
+        if(email.matches(emailPattern)&&password.matches(passwordPattern))
         {
             sLogin.setEnabled(true);
         }
